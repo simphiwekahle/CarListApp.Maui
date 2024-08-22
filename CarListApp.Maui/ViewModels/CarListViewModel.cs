@@ -17,7 +17,7 @@ public partial class CarListViewModel : BaseViewModel
     }
 
     [RelayCommand]
-    async Task GetCarListAsync()
+    async Task GetCarList()
     {
         if (IsLoading) return;
 
